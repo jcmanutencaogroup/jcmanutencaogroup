@@ -1,0 +1,100 @@
+======================================================================
+ARQUIVO: Manutenção Pintura bombas Chiller sala C.A.G.pdf  (5 paginas)
+
+--- p1 --- imgs:6
+   idx00 1000x750   x=  71 y= 108
+   idx01 1000x750   x= 318 y= 108
+   idx02  816x612   x=  71 y= 428
+   idx03  816x612   x= 318 y= 428
+   idx04  301x238   x=  57 y=  43
+   idx05  263x228   x=  57 y= 770
+   TEXTO: Antes  | (1) | Antes  | (2) | Antes  | (3) | Antes  | (4) | Empresa: Hotel Hilton São Paulo Morumbi | Email: | hiltonengenharia2@gmail.com | Criada: | qua. 22 out. 20:58 2025 | Título: | Manutenção  Pintura bombas chiller sala C.A.G | No. Items: 18 | Gerado por '...' em '22/10/2025 21:44' | Relatório Técnico 2025.                                                                                                | Departamento de engenharia.  | Hilton do Brasil Ltda Av. Das Nações Unidas,  | 12901-Torre Leste - CEP : 0457-000- Brooklyn Novo-  | SãoPaulo - SP CNPJ: 42.414.912/0005-83 -  | InscriçãoE
+
+--- p2 --- imgs:6
+   idx00 1000x750   x=  71 y= 108
+   idx01 1000x750   x= 318 y= 108
+   idx02 1000x750   x=  71 y= 428
+   idx03 1000x750   x= 318 y= 428
+   idx04  301x238   x=  57 y=  43
+   idx05  263x228   x=  57 y= 770
+   TEXTO: Antes  | (5) | Antes  | (6) | Antes  | (7) | Antes  | (8) | Empresa: Hotel Hilton São Paulo Morumbi | Email: | hiltonengenharia2@gmail.com | Criada: | qua. 22 out. 20:58 2025 | Título: | Manutenção  Pintura bombas chiller sala C.A.G | No. Items: 18 | Gerado por '...' em '22/10/2025 21:44' | Relatório Técnico 2025.                                                                                                | Departamento de engenharia.  | Hilton do Brasil Ltda Av. Das Nações Unidas,  | 12901-Torre Leste - CEP : 0457-000- Brooklyn Novo-  | SãoPaulo - SP CNPJ: 42.414.912/0005-83 -  | InscriçãoE
+
+--- p3 --- imgs:6
+   idx00  816x612   x=  71 y= 108
+   idx01  816x612   x= 322 y= 108
+   idx02  816x612   x=  76 y= 428
+   idx03  816x612   x= 322 y= 428
+   idx04  301x238   x=  57 y=  43
+   idx05  263x228   x=  57 y= 770
+   TEXTO: Antes  | (9) | Depois  | (10) | Depois  | (11) | Depois  | (12) | Empresa: Hotel Hilton São Paulo Morumbi | Email: | hiltonengenharia2@gmail.com | Criada: | qua. 22 out. 20:58 2025 | Título: | Manutenção  Pintura bombas chiller sala C.A.G | No. Items: 18 | Gerado por '...' em '22/10/2025 21:44' | Relatório Técnico 2025.                                                                                                | Departamento de engenharia.  | Hilton do Brasil Ltda Av. Das Nações Unidas,  | 12901-Torre Leste - CEP : 0457-000- Brooklyn Novo-  | SãoPaulo - SP CNPJ: 42.414.912/0005-83 -  | Insc
+
+--- p4 --- imgs:6
+   idx00 1000x750   x=  76 y= 108
+   idx01 1000x750   x= 322 y= 108
+   idx02 1000x750   x=  76 y= 428
+   idx03 1000x750   x= 322 y= 428
+   idx04  301x238   x=  57 y=  43
+   idx05  263x228   x=  57 y= 770
+   TEXTO: Depois  | (13) | Depois  | (14) | Depois  | (15) | (16) | Empresa: Hotel Hilton São Paulo Morumbi | Email: | hiltonengenharia2@gmail.com | Criada: | qua. 22 out. 20:58 2025 | Título: | Manutenção  Pintura bombas chiller sala C.A.G | No. Items: 18 | Gerado por '...' em '22/10/2025 21:44' | Relatório Técnico 2025.                                                                                                | Departamento de engenharia.  | Hilton do Brasil Ltda Av. Das Nações Unidas,  | 12901-Torre Leste - CEP : 0457-000- Brooklyn Novo-  | SãoPaulo - SP CNPJ: 42.414.912/0005-83 -  | InscriçãoEst
+
+--- p5 --- imgs:4
+   idx00 1000x750   x=  76 y= 108
+   idx01 1000x750   x= 322 y= 108
+   idx02  301x238   x=  57 y=  43
+   idx03  263x228   x=  57 y= 770
+   TEXTO: Depois  | (17) | Depois  | (18) | JUAN CARLOS ESCARRA | Empresa: Hotel Hilton São Paulo Morumbi | Email: | hiltonengenharia2@gmail.com | Criada: | qua. 22 out. 20:58 2025 | Título: | Manutenção  Pintura bombas chiller sala C.A.G | No. Items: 18 | Gerado por '...' em '22/10/2025 21:44' | Relatório Técnico 2025.                                                                                                | Departamento de engenharia.  | Hilton do Brasil Ltda Av. Das Nações Unidas,  | 12901-Torre Leste - CEP : 0457-000- Brooklyn Novo-  | SãoPaulo - SP CNPJ: 42.414.912/0005-83 -  | InscriçãoEstad
+======================================================================
+ARQUIVO: PREVENTIVA V. IN-04.pdf  (3 paginas)
+
+--- p1 --- imgs:6
+   idx00  921x2048  x=  74 y= 121
+   idx01 1536x2048  x= 321 y= 121
+   idx02  921x2048  x=  74 y= 443
+   idx03 1536x2048  x= 321 y= 443
+   idx11  550x337   x=  57 y=  43
+   idx12  263x228   x=  57 y= 781
+   TEXTO: Título: | V. IN- 04 | Antes, filtros  | (1) | Título: | V. IN-04 | Depois, filtros novos  | (2) | Título: | V. IN-04 | Antes  | (3) | Título: | V. IN-04 | Depois  | (4) | Contato: | Hotel Hilton | Empresa: | Hotel Hilton São Paulo Morumbi | Telefone: | (11) 2845-0000 | E-mail: | hiltonengenharia2@gmail.com | Criado: | sex. 06 mar. 18:37 2026 | Título: | PREVENTIVA V. IN-04 | Número de itens: | 11 | 2x2s-614322 | Relatório Técnico 2026. | página 1 de 3
+
+--- p2 --- imgs:6
+   idx04  921x2048  x=  74 y= 121
+   idx05 1536x2048  x= 321 y= 121
+   idx06 1536x2048  x=  74 y= 443
+   idx07 1536x2048  x= 321 y= 443
+   idx11  550x337   x=  57 y=  43
+   idx12  263x228   x=  57 y= 781
+   TEXTO: Título: | V. IN-04 | Antes  | (5) | Título: | V. IN-04  | Depois | (6) | Título: | V. IN- 04 | Antes  | (7) | Título: | V. IN-04 | Depois, troca de correia, pintura  | (8) | Contato: | Hotel Hilton | Empresa: | Hotel Hilton São Paulo Morumbi | Telefone: | (11) 2845-0000 | E-mail: | hiltonengenharia2@gmail.com | Criado: | sex. 06 mar. 18:37 2026 | Título: | PREVENTIVA V. IN-04 | Número de itens: | 11 | 2x2s-614322 | Relatório Técnico 2026. | página 2 de 3
+
+--- p3 --- imgs:5
+   idx08 1536x2048  x=  74 y= 121
+   idx09 1536x2048  x= 325 y= 121
+   idx10 1536x2048  x=  78 y= 435
+   idx11  550x337   x=  57 y=  43
+   idx12  263x228   x=  57 y= 781
+   TEXTO: Título: | V. IN-04 | Durante  | (9) | Título: | V. IN- 04 | Durante  | (10) | Título: | V. IN- 04 | Atribuído a: | JUAN CARLOS ESCARRA | Depois  | (11) | Contato: | Hotel Hilton | Empresa: | Hotel Hilton São Paulo Morumbi | Telefone: | (11) 2845-0000 | E-mail: | hiltonengenharia2@gmail.com | Criado: | sex. 06 mar. 18:37 2026 | Título: | PREVENTIVA V. IN-04 | Número de itens: | 11 | 2x2s-614322 | Relatório Técnico 2026. | página 3 de 3
+======================================================================
+ARQUIVO: PREVENTIVA VE. G2.09.pdf  (3 paginas)
+
+--- p1 --- imgs:6
+   idx00  921x2048  x=  74 y= 121
+   idx01 1536x2048  x= 321 y= 121
+   idx02  921x2048  x=  74 y= 443
+   idx03 1536x2048  x= 321 y= 443
+   idx10  550x337   x=  57 y=  43
+   idx11  263x228   x=  57 y= 781
+   TEXTO: Título: | Duto ventilador G2.09 | Antes  | (1) | Título: | Duto ventilador G2.09 | Depois  | (2) | Título: | Ventilador G2. 09 | Antes  | (3) | Título: | Ventilador G2.09 | Depois  | (4) | Contato: | Hotel Hilton | Empresa: | Hotel Hilton São Paulo Morumbi | Telefone: | (11) 2845-0000 | E-mail: | hiltonengenharia2@gmail.com | Criado: | sex. 20 mar. 16:38 2026 | Título: | PREVENTIVA VE. G2.09 | Número de itens: | 10 | 2x2s-626024 | Relatório Técnico 2026. | página 1 de 3
+
+--- p2 --- imgs:6
+   idx04  921x2048  x=  74 y= 121
+   idx05 1536x2048  x= 321 y= 121
+   idx06  921x2048  x=  74 y= 443
+   idx07  921x2048  x= 321 y= 443
+   idx10  550x337   x=  57 y=  43
+   idx11  263x228   x=  57 y= 781
+   TEXTO: Título: | Ventilador G2.09 | Antes, motor  | (5) | Título: | Ventilador G2.09 | Depois, limpeza geral e pintura motor | (6) | Título: | Ventilador G2.09 | Antes  | (7) | Título: | Ventilador G2.09 | Depois, troca de correia | (8) | Contato: | Hotel Hilton | Empresa: | Hotel Hilton São Paulo Morumbi | Telefone: | (11) 2845-0000 | E-mail: | hiltonengenharia2@gmail.com | Criado: | sex. 20 mar. 16:38 2026 | Título: | PREVENTIVA VE. G2.09 | Número de itens: | 10 | 2x2s-626024 | Relatório Técnico 2026. | página 2 de 3
+
+--- p3 --- imgs:4
+   idx08  921x2048  x=  74 y= 121
+   idx09  921x2048  x= 325 y= 121
+   idx10  550x337   x=  57 y=  43
+   idx11  263x228   x=  57 y= 781
+   TEXTO: Título: | Ventilador G2.09  | Antes  | (9) | Título: | Ventilador G2.09  | Atribuído a: | JUAN CARLOS ESCARRA | Depois | (10) | Contato: | Hotel Hilton | Empresa: | Hotel Hilton São Paulo Morumbi | Telefone: | (11) 2845-0000 | E-mail: | hiltonengenharia2@gmail.com | Criado: | sex. 20 mar. 16:38 2026 | Título: | PREVENTIVA VE. G2.09 | Número de itens: | 10 | 2x2s-626024 | Relatório Técnico 2026. | página 3 de 3

@@ -1,0 +1,48 @@
+
+========================================================================
+Manutenção Pintura bombas Chiller sala C.A.G.pdf  ->  bombas
+  bombas_01  p1  1000x750   Antes
+  bombas_02  p1  1000x750   Antes
+  bombas_03  p1   816x612   Antes / Gerado por '...' em '22/10/2025 21:44' Relatório Técnico 2025.                    
+  bombas_04  p1   816x612   Antes
+  bombas_05  p2  1000x750   Antes
+  bombas_06  p2  1000x750   Antes
+  bombas_07  p2  1000x750   Antes / Gerado por '...' em '22/10/2025 21:44' Relatório Técnico 2025.                    
+  bombas_08  p2  1000x750   Antes
+  bombas_09  p3   816x612   Antes
+  bombas_10  p3   816x612   Depois
+  bombas_11  p3   816x612   Depois / Gerado por '...' em '22/10/2025 21:44' Relatório Técnico 2025.                   
+  bombas_12  p3   816x612   Depois
+  bombas_13  p4  1000x750   Depois
+  bombas_14  p4  1000x750   Depois
+  bombas_15  p4  1000x750   Depois / Gerado por '...' em '22/10/2025 21:44' Relatório Técnico 2025.                   
+  bombas_16  p4  1000x750   
+  bombas_17  p5  1000x750   Depois / JUAN CARLOS ESCARRA
+  bombas_18  p5  1000x750   Depois
+
+========================================================================
+PREVENTIVA V. IN-04.pdf  ->  in04
+  in04_01  p1   921x2048  Título: V. IN- 04 / Antes, filtros
+  in04_02  p1  1536x2048  Título: V. IN-04 / Depois, filtros novos
+  in04_03  p1   921x2048  Título: V. IN-04 / Antes / 2x2s-614322 Relatório Técnico 2026.
+  in04_04  p1  1536x2048  Título: V. IN-04 / Depois
+  in04_05  p2   921x2048  Título: V. IN-04 / Antes
+  in04_06  p2  1536x2048  Título: V. IN-04 / Depois
+  in04_07  p2  1536x2048  Título: V. IN- 04 / Antes / 2x2s-614322 Relatório Técnico 2026.
+  in04_08  p2  1536x2048  Título: V. IN-04 / Depois, troca de correia, pintura
+  in04_09  p3  1536x2048  Título: V. IN-04 / Durante
+  in04_10  p3  1536x2048  Título: V. IN- 04 / Durante
+  in04_11  p3  1536x2048  Título: V. IN- 04 / Atribuído a: JUAN CARLOS ESCARRA / Depois / 2x2s-614322 Relatório Técn
+
+========================================================================
+PREVENTIVA VE. G2.09.pdf  ->  g209
+  g209_01  p1   921x2048  Título: Duto ventilador G2.09 / Antes
+  g209_02  p1  1536x2048  Título: Duto ventilador G2.09 / Depois
+  g209_03  p1   921x2048  Título: Ventilador G2. 09 / Antes / 2x2s-626024 Relatório Técnico 2026.
+  g209_04  p1  1536x2048  Título: Ventilador G2.09 / Depois
+  g209_05  p2   921x2048  Título: Ventilador G2.09 / Antes, motor
+  g209_06  p2  1536x2048  Título: Ventilador G2.09 / Depois, limpeza geral e pintura motor
+  g209_07  p2   921x2048  Título: Ventilador G2.09 / Antes / 2x2s-626024 Relatório Técnico 2026.
+  g209_08  p2   921x2048  Título: Ventilador G2.09 / Depois, troca de correia
+  g209_09  p3   921x2048  Título: Ventilador G2.09 / Antes
+  g209_10  p3   921x2048  Título: Ventilador G2.09 / Atribuído a: JUAN CARLOS ESCARRA / Depois

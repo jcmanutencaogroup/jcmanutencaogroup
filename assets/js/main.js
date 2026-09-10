@@ -7,51 +7,37 @@
   var WHATSAPP = '5511966322953';
 
   /* -------------------------------------------------------
-     1. IMAGENS DEMONSTRATIVAS (banco de imagens)
-     Troque os valores abaixo pelas fotos reais da empresa.
-     Se um link falhar, cai automaticamente no placeholder.
+     1. TEMA CLARO / ESCURO
+     O tema inicial ja foi aplicado pelo script no <head>,
+     para nao piscar. Aqui so tratamos o botao e o sistema.
   ------------------------------------------------------- */
-  var U = 'https://images.unsplash.com/photo-';
-  var Q = '?auto=format&fit=crop&w=1200&q=70';
-  var QS = '?auto=format&fit=crop&w=320&h=320&q=70';
+  var raiz = document.documentElement;
+  var btnTema = document.getElementById('tema');
+  var CHAVE = 'jc-tema';
 
-  var IMAGES = {
-    hero:     U + '1621905251189-08b45d6a269e' + Q,
-    sobre:    U + '1581091226825-a6a2a5aee158' + Q,
-    fundador: U + '1560250097-0b93528c311a' + QS,
+  function aplicarTema(t) {
+    raiz.setAttribute('data-tema', t);
+    btnTema.setAttribute('aria-label',
+      t === 'escuro' ? 'Mudar para o tema claro' : 'Mudar para o tema escuro');
+  }
 
-    antes1:  U + '1504328345606-18bbc8c9d7d1' + Q,
-    depois1: U + '1581092160562-40aa08e78837' + Q,
-    antes2:  U + '1504917595217-d4dc5ebe6122' + Q,
-    depois2: U + '1581094794329-c8112a89af12' + Q,
-    antes3:  U + '1516937941344-00b4e0337589' + Q,
-    depois3: U + '1565043666747-69f6646db940' + Q,
-    antes4:  U + '1567789884554-0b844b597180' + Q,
-    depois4: U + '1590959651373-a3db0f38a961' + Q,
+  btnTema.addEventListener('click', function () {
+    var novo = raiz.getAttribute('data-tema') === 'escuro' ? 'claro' : 'escuro';
+    aplicarTema(novo);
+    try { localStorage.setItem(CHAVE, novo); } catch (e) {}
+  });
 
-    pessoa1: U + '1507003211169-0a1dd7228f2d' + QS,
-    pessoa2: U + '1472099645785-5658abf4ff4e' + QS,
-    pessoa3: U + '1573496359142-b8d87734a5a2' + QS,
-    pessoa4: U + '1519085360753-af0119f7cbe7' + QS
+  aplicarTema(raiz.getAttribute('data-tema') || 'claro');
+
+  // Acompanha o sistema enquanto o visitante nao escolher manualmente
+  var mq = window.matchMedia('(prefers-color-scheme: dark)');
+  var ouvirSistema = function (e) {
+    var salvo = null;
+    try { salvo = localStorage.getItem(CHAVE); } catch (err) {}
+    if (!salvo) aplicarTema(e.matches ? 'escuro' : 'claro');
   };
-
-  // Placeholder de segurança (sempre disponível)
-  function fallbackFor(key) {
-    var small = key.indexOf('pessoa') === 0 || key === 'fundador';
-    return 'https://picsum.photos/seed/jc-' + key + (small ? '/320/320' : '/1200/800');
-  }
-
-  function loadImages() {
-    var nodes = document.querySelectorAll('img[data-img]');
-    Array.prototype.forEach.call(nodes, function (img) {
-      var key = img.getAttribute('data-img');
-      img.addEventListener('error', function onErr() {
-        img.removeEventListener('error', onErr);
-        img.src = fallbackFor(key);
-      });
-      img.src = IMAGES[key] || fallbackFor(key);
-    });
-  }
+  if (mq.addEventListener) mq.addEventListener('change', ouvirSistema);
+  else if (mq.addListener) mq.addListener(ouvirSistema);
 
   /* -------------------------------------------------------
      2. MENU MOBILE
@@ -185,20 +171,7 @@
   }
 
   /* -------------------------------------------------------
-     7. ANTES / DEPOIS (toque no mobile)
-  ------------------------------------------------------- */
-  Array.prototype.forEach.call(document.querySelectorAll('.work__media'), function (media) {
-    media.addEventListener('click', function () { media.classList.toggle('is-after'); });
-    media.addEventListener('keydown', function (e) {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        media.classList.toggle('is-after');
-      }
-    });
-  });
-
-  /* -------------------------------------------------------
-     8. SLIDER DE DEPOIMENTOS
+     7. SLIDER DE DEPOIMENTOS
   ------------------------------------------------------- */
   var track = document.getElementById('track');
   var dotsBox = document.getElementById('dots');
@@ -252,7 +225,7 @@
   }
 
   /* -------------------------------------------------------
-     9. FORMULÁRIO -> WHATSAPP
+     8. FORMULÁRIO -> WHATSAPP
   ------------------------------------------------------- */
   var form = document.getElementById('form');
   var formOk = document.getElementById('formOk');
@@ -320,12 +293,8 @@
   });
 
   /* -------------------------------------------------------
-     10. ANO NO RODAPÉ
+     9. ANO NO RODAPÉ
   ------------------------------------------------------- */
   document.getElementById('year').textContent = new Date().getFullYear();
 
-  /* -------------------------------------------------------
-     INIT
-  ------------------------------------------------------- */
-  loadImages();
 })();

@@ -2,15 +2,26 @@
 <html lang="pt-BR" class="no-js">
 <head>
 <meta charset="UTF-8">
-<script>document.documentElement.className="js";</script>
+<script>
+(function(){
+  var r=document.documentElement;
+  r.className="js";
+  try{
+    var t=localStorage.getItem("jc-tema");
+    if(!t) t=matchMedia("(prefers-color-scheme: dark)").matches?"escuro":"claro";
+    r.setAttribute("data-tema",t);
+  }catch(e){ r.setAttribute("data-tema","claro"); }
+})();
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>JC Manutenção — Manutenção Predial &amp; Climatização em São Paulo</title>
 <meta name="description" content="Especialistas em manutenção preventiva de sistemas Fan Coil, Chiller, motores, dutos e ventilação. 17 anos de experiência em shopping centers, hotéis 5 estrelas, condomínios e indústrias. São Paulo - SP.">
-<meta name="theme-color" content="#072267">
+<meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B1020" media="(prefers-color-scheme: dark)">
 <meta property="og:title" content="JC Manutenção — Manutenção Predial &amp; Climatização">
 <meta property="og:description" content="Manutenção preventiva programada de Fan Coil, Chiller, motores e ventilação. Relatório fotográfico incluso.">
 <meta property="og:type" content="website">
-<link rel="icon" href="assets/img/logo.jpg">
+<link rel="icon" href="assets/img/logo_tema_claro.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
@@ -24,7 +35,8 @@
 <header class="header" id="header">
   <div class="container header__in">
     <a href="#inicio" class="brand" aria-label="JC Manutenção — início">
-      <img src="assets/img/logo.jpg" alt="JC Manutenção" class="brand__img">
+      <img src="assets/img/logo_tema_claro.png" alt="JC Manutenção" class="brand__img brand__img--claro">
+      <img src="assets/img/logo_tema_escuro.png" alt="" aria-hidden="true" class="brand__img brand__img--escuro">
     </a>
 
     <nav class="nav" id="nav" aria-label="Navegação principal">
@@ -40,6 +52,11 @@
       <a href="https://wa.me/5511966322953?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20inspe%C3%A7%C3%A3o." class="btn btn--sm nav__cta" target="_blank" rel="noopener">Falar agora</a>
     </nav>
 
+    <button class="tema" id="tema" type="button" aria-label="Alternar tema claro e escuro" title="Alternar tema">
+      <svg class="tema__sol" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.2v2.2M12 19.6v2.2M2.2 12h2.2M19.6 12h2.2M5.1 5.1l1.6 1.6M17.3 17.3l1.6 1.6M18.9 5.1l-1.6 1.6M6.7 17.3l-1.6 1.6"/></svg>
+      <svg class="tema__lua" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.6A8.6 8.6 0 1 1 9.4 3.5a6.9 6.9 0 0 0 11.1 11.1z"/></svg>
+    </button>
+
     <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
       <span></span><span></span><span></span>
     </button>
@@ -49,7 +66,7 @@
 <!-- ============ 1. INÍCIO ============ -->
 <section class="hero" id="inicio">
   <div class="hero__bg">
-    <img data-img="hero" alt="" aria-hidden="true">
+    <img src="assets/img/fotos/topo-casa-de-maquinas.jpg" alt="" aria-hidden="true" fetchpriority="high" width="1600" height="900">
   </div>
   <div class="container hero__in">
     <p class="hero__eyebrow">Manutenção predial e climatização · São Paulo</p>
@@ -94,17 +111,19 @@
       </div>
 
       <div class="about__media reveal">
-        <img data-img="sobre" alt="Técnico realizando manutenção preventiva em sistema de climatização" loading="lazy">
+        <img src="assets/img/fotos/sobre-dutos.jpg" alt="Área técnica com dutos e tubulação de climatização" loading="lazy" width="900" height="765">
       </div>
     </div>
 
     <div class="founder reveal">
-      <img data-img="fundador" alt="Juan Carlos Escarra, fundador e diretor" loading="lazy">
       <div class="founder__txt">
-        <strong>Juan Carlos Escarra</strong>
-        <span>Fundador e Diretor</span>
-        <p>Doze anos em shopping center, cinco anos em condomínio de alto padrão, além de
-        hotelaria cinco estrelas e indústria.</p>
+        <strong>JC Manutenção</strong>
+        <span>Manutenção predial e climatização · São Paulo - SP</span>
+        <p>Empresa especializada em manutenção preventiva de sistemas de climatização, com
+        dezessete anos de experiência técnica em shopping centers, hotelaria cinco estrelas,
+        condomínios de alto padrão e ambientes industriais. Atuação registrada sob o CNAE
+        4322-3/02, com equipe uniformizada, procedimentos de segurança e relatório fotográfico
+        em cada intervenção.</p>
       </div>
     </div>
 
@@ -290,71 +309,121 @@
       <p class="eyebrow">Resultados</p>
       <h2 class="sec-title">Projetos realizados.</h2>
       <p class="sec-sub">Trabalhos executados em rede hoteleira internacional cinco estrelas.
-      Passe o mouse ou toque na imagem para ver o depois.</p>
+      Antes e depois de cada intervenção, em rede hoteleira internacional cinco estrelas.</p>
     </div>
 
     <div class="works">
       <article class="work reveal">
-        <div class="work__media" tabindex="0" role="group" aria-label="Comparação antes e depois">
-          <img class="work__before" data-img="antes1" alt="Fan Coil antes da manutenção preventiva" loading="lazy">
-          <img class="work__after" data-img="depois1" alt="Fan Coil depois da manutenção preventiva" loading="lazy">
-          <span class="work__tag work__tag--b">Antes</span>
-          <span class="work__tag work__tag--a">Depois</span>
+        <div class="work__par">
+          <figure class="work__foto">
+            <img src="assets/img/fotos/duto-exaustao-antes.jpg" alt="Duto do ventilador de exaustão antes da intervenção" loading="lazy" width="1000" height="1000">
+            <figcaption>Antes</figcaption>
+          </figure>
+          <figure class="work__foto work__foto--depois">
+            <img src="assets/img/fotos/duto-exaustao-depois.jpg" alt="Duto do ventilador de exaustão depois da intervenção" loading="lazy" width="1000" height="1000">
+            <figcaption>Depois</figcaption>
+          </figure>
         </div>
         <div class="work__body">
-          <p class="work__cat">Manutenção preventiva · Pintura</p>
-          <h3>Fan Coil e componentes metálicos</h3>
-          <p>Inspeção geral, avaliação de filtros e motor. Intervenção: troca de filtros, manutenção
-          do motor, limpeza e ajustes.</p>
-          <span class="work__loc">Operação hoteleira de alto padrão — São Paulo</span>
+          <p class="work__cat">Exaustão · Recuperação de corrosão</p>
+          <h3>Duto do ventilador de exaustão</h3>
+          <p>Tratamento da corrosão no acoplamento e na chapa, vedação e recomposição do acabamento.</p>
+          <span class="work__loc">Rede hoteleira internacional cinco estrelas — São Paulo</span>
         </div>
       </article>
 
       <article class="work reveal">
-        <div class="work__media" tabindex="0" role="group" aria-label="Comparação antes e depois">
-          <img class="work__before" data-img="antes2" alt="Ventilador de exaustão antes da manutenção" loading="lazy">
-          <img class="work__after" data-img="depois2" alt="Ventilador de exaustão depois da manutenção" loading="lazy">
-          <span class="work__tag work__tag--b">Antes</span>
-          <span class="work__tag work__tag--a">Depois</span>
+        <div class="work__par">
+          <figure class="work__foto">
+            <img src="assets/img/fotos/motor-exaustao-antes.jpg" alt="Motor do ventilador de exaustão antes da intervenção" loading="lazy" width="1000" height="1000">
+            <figcaption>Antes</figcaption>
+          </figure>
+          <figure class="work__foto work__foto--depois">
+            <img src="assets/img/fotos/motor-exaustao-depois.jpg" alt="Motor do ventilador de exaustão depois da intervenção" loading="lazy" width="1000" height="1000">
+            <figcaption>Depois</figcaption>
+          </figure>
         </div>
         <div class="work__body">
-          <p class="work__cat">Manutenção preventiva · Exaustão</p>
-          <h3>Ventilador de exaustão</h3>
-          <p>Avaliação de correias, filtros e vibrações. Intervenção: troca de correias e filtros,
-          amortecimento contra ruído e vibração.</p>
-          <span class="work__loc">Operação hoteleira de alto padrão — São Paulo</span>
+          <p class="work__cat">Exaustão · Motores</p>
+          <h3>Motor do ventilador de exaustão</h3>
+          <p>Limpeza geral, tratamento de superfície e pintura do motor, após avaliação elétrica e mecânica.</p>
+          <span class="work__loc">Rede hoteleira internacional cinco estrelas — São Paulo</span>
         </div>
       </article>
 
       <article class="work reveal">
-        <div class="work__media" tabindex="0" role="group" aria-label="Comparação antes e depois">
-          <img class="work__before" data-img="antes3" alt="Bombas do sistema Chiller antes da conservação" loading="lazy">
-          <img class="work__after" data-img="depois3" alt="Bombas do sistema Chiller depois da conservação" loading="lazy">
-          <span class="work__tag work__tag--b">Antes</span>
-          <span class="work__tag work__tag--a">Depois</span>
+        <div class="work__par">
+          <figure class="work__foto">
+            <img src="assets/img/fotos/ventilador-exaustao-antes.jpg" alt="Conjunto do ventilador de exaustão antes da intervenção" loading="lazy" width="1000" height="1000">
+            <figcaption>Antes</figcaption>
+          </figure>
+          <figure class="work__foto work__foto--depois">
+            <img src="assets/img/fotos/ventilador-exaustao-depois.jpg" alt="Conjunto do ventilador de exaustão depois da intervenção" loading="lazy" width="1000" height="1000">
+            <figcaption>Depois</figcaption>
+          </figure>
         </div>
         <div class="work__body">
-          <p class="work__cat">Conservação de ativos · Chiller</p>
+          <p class="work__cat">Exaustão · Conservação</p>
+          <h3>Conjunto do ventilador de exaustão</h3>
+          <p>Limpeza, ajustes de fixação e pintura da carcaça e da base, com verificação de vibração.</p>
+          <span class="work__loc">Rede hoteleira internacional cinco estrelas — São Paulo</span>
+        </div>
+      </article>
+
+      <article class="work reveal">
+        <div class="work__par">
+          <figure class="work__foto">
+            <img src="assets/img/fotos/filtros-insuflamento-antes.jpg" alt="Filtros do ventilador de insuflamento antes da intervenção" loading="lazy" width="1000" height="1000">
+            <figcaption>Antes</figcaption>
+          </figure>
+          <figure class="work__foto work__foto--depois">
+            <img src="assets/img/fotos/filtros-insuflamento-depois.jpg" alt="Filtros do ventilador de insuflamento depois da intervenção" loading="lazy" width="1000" height="1000">
+            <figcaption>Depois</figcaption>
+          </figure>
+        </div>
+        <div class="work__body">
+          <p class="work__cat">Insuflamento · Higienização</p>
+          <h3>Filtros do ventilador de insuflamento</h3>
+          <p>Descontaminação do gabinete e troca completa dos filtros.</p>
+          <span class="work__loc">Rede hoteleira internacional cinco estrelas — São Paulo</span>
+        </div>
+      </article>
+
+      <article class="work reveal">
+        <div class="work__par">
+          <figure class="work__foto">
+            <img src="assets/img/fotos/correia-insuflamento-antes.jpg" alt="Correia e motor do insuflamento antes da intervenção" loading="lazy" width="1000" height="1000">
+            <figcaption>Antes</figcaption>
+          </figure>
+          <figure class="work__foto work__foto--depois">
+            <img src="assets/img/fotos/correia-insuflamento-depois.jpg" alt="Correia e motor do insuflamento depois da intervenção" loading="lazy" width="1000" height="1000">
+            <figcaption>Depois</figcaption>
+          </figure>
+        </div>
+        <div class="work__body">
+          <p class="work__cat">Insuflamento · Ajuste mecânico</p>
+          <h3>Correia e motor do insuflamento</h3>
+          <p>Troca de correia, ajuste de polias e alinhamento, com pintura do conjunto.</p>
+          <span class="work__loc">Rede hoteleira internacional cinco estrelas — São Paulo</span>
+        </div>
+      </article>
+
+      <article class="work reveal">
+        <div class="work__par">
+          <figure class="work__foto">
+            <img src="assets/img/fotos/bombas-chiller-antes.jpg" alt="Bombas do sistema de água gelada antes da intervenção" loading="lazy" width="1000" height="1000">
+            <figcaption>Antes</figcaption>
+          </figure>
+          <figure class="work__foto work__foto--depois">
+            <img src="assets/img/fotos/bombas-chiller-depois.jpg" alt="Bombas do sistema de água gelada depois da intervenção" loading="lazy" width="1000" height="1000">
+            <figcaption>Depois</figcaption>
+          </figure>
+        </div>
+        <div class="work__body">
+          <p class="work__cat">Chiller · Conservação de ativos</p>
           <h3>Bombas do sistema de água gelada</h3>
-          <p>Avaliação e preparação de superfícies. Intervenção: pintura de proteção e conservação
-          dos componentes metálicos.</p>
-          <span class="work__loc">Operação hoteleira de alto padrão — São Paulo</span>
-        </div>
-      </article>
-
-      <article class="work reveal">
-        <div class="work__media" tabindex="0" role="group" aria-label="Comparação antes e depois">
-          <img class="work__before" data-img="antes4" alt="Motores de ventilação antes da manutenção" loading="lazy">
-          <img class="work__after" data-img="depois4" alt="Motores de ventilação depois da manutenção" loading="lazy">
-          <span class="work__tag work__tag--b">Antes</span>
-          <span class="work__tag work__tag--a">Depois</span>
-        </div>
-        <div class="work__body">
-          <p class="work__cat">Manutenção preventiva · Motores</p>
-          <h3>Motores de ventilação e dutos</h3>
-          <p>Inspeção de vedação e vazamentos. Intervenção: vedação de acoplamentos, limpeza e
-          pintura de proteção.</p>
-          <span class="work__loc">Operação hoteleira de alto padrão — São Paulo</span>
+          <p>Preparação de superfícies, tratamento anticorrosivo e pintura de proteção.</p>
+          <span class="work__loc">Rede hoteleira internacional cinco estrelas — São Paulo</span>
         </div>
       </article>
     </div>
@@ -378,22 +447,22 @@
           <blockquote class="quote">
             <p>A previsibilidade mudou nossa operação. Desde que a JC assumiu a preventiva dos
             Fan Coils, não tivemos mais parada não programada em área de hóspede.</p>
-            <footer><img data-img="pessoa1" alt="" loading="lazy"><span><strong>Gerente de Manutenção</strong><em>Rede hoteleira internacional — São Paulo</em></span></footer>
+            <footer><span><strong>Gerente de Manutenção</strong><em>Rede hoteleira internacional — São Paulo</em></span></footer>
           </blockquote>
           <blockquote class="quote">
             <p>O relatório fotográfico é o grande diferencial. Consigo apresentar o histórico
             completo das intervenções para o conselho sem precisar montar nada.</p>
-            <footer><img data-img="pessoa2" alt="" loading="lazy"><span><strong>Síndico Profissional</strong><em>Condomínio de alto padrão — São Paulo</em></span></footer>
+            <footer><span><strong>Síndico Profissional</strong><em>Condomínio de alto padrão — São Paulo</em></span></footer>
           </blockquote>
           <blockquote class="quote">
             <p>Equipe técnica, pontual e com EPI sempre em ordem. A recuperação da casa de máquinas
             ficou muito acima do que esperávamos.</p>
-            <footer><img data-img="pessoa3" alt="" loading="lazy"><span><strong>Coordenador de Facilities</strong><em>Edifício corporativo — São Paulo</em></span></footer>
+            <footer><span><strong>Coordenador de Facilities</strong><em>Edifício corporativo — São Paulo</em></span></footer>
           </blockquote>
           <blockquote class="quote">
             <p>Conhecem Chiller e exaustão de verdade. Reduzimos chamados corretivos de forma
             consistente já no primeiro ciclo de contrato.</p>
-            <footer><img data-img="pessoa4" alt="" loading="lazy"><span><strong>Engenharia Predial</strong><em>Shopping center — Grande São Paulo</em></span></footer>
+            <footer><span><strong>Engenharia Predial</strong><em>Shopping center — Grande São Paulo</em></span></footer>
           </blockquote>
         </div>
       </div>
@@ -525,7 +594,8 @@
 <footer class="footer">
   <div class="container footer__in">
     <div class="footer__col footer__col--brand">
-      <img src="assets/img/logo.jpg" alt="JC Manutenção" class="footer__logo">
+      <img src="assets/img/logo_tema_claro.png" alt="JC Manutenção" class="footer__logo footer__logo--claro">
+      <img src="assets/img/logo_tema_escuro.png" alt="" aria-hidden="true" class="footer__logo footer__logo--escuro">
       <p>Manutenção predial e climatização com foco em prevenção. Fan Coil, Chiller, motores,
       dutos e ventilação, com relatório fotográfico em cada intervenção.</p>
     </div>

@@ -4,8 +4,8 @@
     {
       "name": "jc-site",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "5599", "--directory", "site"],
-      "port": 5599
+      "runtimeArgs": ["-m", "http.server", "5610"],
+      "port": 5610
     }
   ]
 }

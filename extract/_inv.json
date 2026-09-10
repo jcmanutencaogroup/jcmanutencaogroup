@@ -1,0 +1,275 @@
+[
+ {
+  "tag": "bombas",
+  "item": 1,
+  "pag": 1,
+  "px": "1000x750",
+  "legenda": "Antes"
+ },
+ {
+  "tag": "bombas",
+  "item": 2,
+  "pag": 1,
+  "px": "1000x750",
+  "legenda": "Antes"
+ },
+ {
+  "tag": "bombas",
+  "item": 3,
+  "pag": 1,
+  "px": "816x612",
+  "legenda": "Antes / Gerado por '...' em '22/10/2025 21:44' Relatório Técnico 2025.                    "
+ },
+ {
+  "tag": "bombas",
+  "item": 4,
+  "pag": 1,
+  "px": "816x612",
+  "legenda": "Antes"
+ },
+ {
+  "tag": "bombas",
+  "item": 5,
+  "pag": 2,
+  "px": "1000x750",
+  "legenda": "Antes"
+ },
+ {
+  "tag": "bombas",
+  "item": 6,
+  "pag": 2,
+  "px": "1000x750",
+  "legenda": "Antes"
+ },
+ {
+  "tag": "bombas",
+  "item": 7,
+  "pag": 2,
+  "px": "1000x750",
+  "legenda": "Antes / Gerado por '...' em '22/10/2025 21:44' Relatório Técnico 2025.                    "
+ },
+ {
+  "tag": "bombas",
+  "item": 8,
+  "pag": 2,
+  "px": "1000x750",
+  "legenda": "Antes"
+ },
+ {
+  "tag": "bombas",
+  "item": 9,
+  "pag": 3,
+  "px": "816x612",
+  "legenda": "Antes"
+ },
+ {
+  "tag": "bombas",
+  "item": 10,
+  "pag": 3,
+  "px": "816x612",
+  "legenda": "Depois"
+ },
+ {
+  "tag": "bombas",
+  "item": 11,
+  "pag": 3,
+  "px": "816x612",
+  "legenda": "Depois / Gerado por '...' em '22/10/2025 21:44' Relatório Técnico 2025.                   "
+ },
+ {
+  "tag": "bombas",
+  "item": 12,
+  "pag": 3,
+  "px": "816x612",
+  "legenda": "Depois"
+ },
+ {
+  "tag": "bombas",
+  "item": 13,
+  "pag": 4,
+  "px": "1000x750",
+  "legenda": "Depois"
+ },
+ {
+  "tag": "bombas",
+  "item": 14,
+  "pag": 4,
+  "px": "1000x750",
+  "legenda": "Depois"
+ },
+ {
+  "tag": "bombas",
+  "item": 15,
+  "pag": 4,
+  "px": "1000x750",
+  "legenda": "Depois / Gerado por '...' em '22/10/2025 21:44' Relatório Técnico 2025.                   "
+ },
+ {
+  "tag": "bombas",
+  "item": 16,
+  "pag": 4,
+  "px": "1000x750",
+  "legenda": ""
+ },
+ {
+  "tag": "bombas",
+  "item": 17,
+  "pag": 5,
+  "px": "1000x750",
+  "legenda": "Depois / JUAN CARLOS ESCARRA"
+ },
+ {
+  "tag": "bombas",
+  "item": 18,
+  "pag": 5,
+  "px": "1000x750",
+  "legenda": "Depois"
+ },
+ {
+  "tag": "in04",
+  "item": 1,
+  "pag": 1,
+  "px": "921x2048",
+  "legenda": "Título: V. IN- 04 / Antes, filtros"
+ },
+ {
+  "tag": "in04",
+  "item": 2,
+  "pag": 1,
+  "px": "1536x2048",
+  "legenda": "Título: V. IN-04 / Depois, filtros novos"
+ },
+ {
+  "tag": "in04",
+  "item": 3,
+  "pag": 1,
+  "px": "921x2048",
+  "legenda": "Título: V. IN-04 / Antes / 2x2s-614322 Relatório Técnico 2026."
+ },
+ {
+  "tag": "in04",
+  "item": 4,
+  "pag": 1,
+  "px": "1536x2048",
+  "legenda": "Título: V. IN-04 / Depois"
+ },
+ {
+  "tag": "in04",
+  "item": 5,
+  "pag": 2,
+  "px": "921x2048",
+  "legenda": "Título: V. IN-04 / Antes"
+ },
+ {
+  "tag": "in04",
+  "item": 6,
+  "pag": 2,
+  "px": "1536x2048",
+  "legenda": "Título: V. IN-04 / Depois"
+ },
+ {
+  "tag": "in04",
+  "item": 7,
+  "pag": 2,
+  "px": "1536x2048",
+  "legenda": "Título: V. IN- 04 / Antes / 2x2s-614322 Relatório Técnico 2026."
+ },
+ {
+  "tag": "in04",
+  "item": 8,
+  "pag": 2,
+  "px": "1536x2048",
+  "legenda": "Título: V. IN-04 / Depois, troca de correia, pintura"
+ },
+ {
+  "tag": "in04",
+  "item": 9,
+  "pag": 3,
+  "px": "1536x2048",
+  "legenda": "Título: V. IN-04 / Durante"
+ },
+ {
+  "tag": "in04",
+  "item": 10,
+  "pag": 3,
+  "px": "1536x2048",
+  "legenda": "Título: V. IN- 04 / Durante"
+ },
+ {
+  "tag": "in04",
+  "item": 11,
+  "pag": 3,
+  "px": "1536x2048",
+  "legenda": "Título: V. IN- 04 / Atribuído a: JUAN CARLOS ESCARRA / Depois / 2x2s-614322 Relatório Técn"
+ },
+ {
+  "tag": "g209",
+  "item": 1,
+  "pag": 1,
+  "px": "921x2048",
+  "legenda": "Título: Duto ventilador G2.09 / Antes"
+ },
+ {
+  "tag": "g209",
+  "item": 2,
+  "pag": 1,
+  "px": "1536x2048",
+  "legenda": "Título: Duto ventilador G2.09 / Depois"
+ },
+ {
+  "tag": "g209",
+  "item": 3,
+  "pag": 1,
+  "px": "921x2048",
+  "legenda": "Título: Ventilador G2. 09 / Antes / 2x2s-626024 Relatório Técnico 2026."
+ },
+ {
+  "tag": "g209",
+  "item": 4,
+  "pag": 1,
+  "px": "1536x2048",
+  "legenda": "Título: Ventilador G2.09 / Depois"
+ },
+ {
+  "tag": "g209",
+  "item": 5,
+  "pag": 2,
+  "px": "921x2048",
+  "legenda": "Título: Ventilador G2.09 / Antes, motor"
+ },
+ {
+  "tag": "g209",
+  "item": 6,
+  "pag": 2,
+  "px": "1536x2048",
+  "legenda": "Título: Ventilador G2.09 / Depois, limpeza geral e pintura motor"
+ },
+ {
+  "tag": "g209",
+  "item": 7,
+  "pag": 2,
+  "px": "921x2048",
+  "legenda": "Título: Ventilador G2.09 / Antes / 2x2s-626024 Relatório Técnico 2026."
+ },
+ {
+  "tag": "g209",
+  "item": 8,
+  "pag": 2,
+  "px": "921x2048",
+  "legenda": "Título: Ventilador G2.09 / Depois, troca de correia"
+ },
+ {
+  "tag": "g209",
+  "item": 9,
+  "pag": 3,
+  "px": "921x2048",
+  "legenda": "Título: Ventilador G2.09 / Antes"
+ },
+ {
+  "tag": "g209",
+  "item": 10,
+  "pag": 3,
+  "px": "921x2048",
+  "legenda": "Título: Ventilador G2.09 / Atribuído a: JUAN CARLOS ESCARRA / Depois"
+ }
+]
