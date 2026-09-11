@@ -171,7 +171,22 @@
   }
 
   /* -------------------------------------------------------
-     7. SLIDER DE DEPOIMENTOS
+     7. PORTFOLIO — toque no celular
+     No computador a troca e por hover (CSS). No celular,
+     que nao tem hover, o toque alterna para a foto do antes.
+  ------------------------------------------------------- */
+  Array.prototype.forEach.call(document.querySelectorAll('.work__media'), function (media) {
+    media.addEventListener('click', function () { media.classList.toggle('is-antes'); });
+    media.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        media.classList.toggle('is-antes');
+      }
+    });
+  });
+
+  /* -------------------------------------------------------
+     8. SLIDER DE DEPOIMENTOS
   ------------------------------------------------------- */
   var track = document.getElementById('track');
   var dotsBox = document.getElementById('dots');
@@ -225,7 +240,7 @@
   }
 
   /* -------------------------------------------------------
-     8. FORMULÁRIO -> WHATSAPP
+     9. FORMULÁRIO -> WHATSAPP
   ------------------------------------------------------- */
   var form = document.getElementById('form');
   var formOk = document.getElementById('formOk');
@@ -293,7 +308,7 @@
   });
 
   /* -------------------------------------------------------
-     9. ANO NO RODAPÉ
+     10. ANO NO RODAPÉ
   ------------------------------------------------------- */
   document.getElementById('year').textContent = new Date().getFullYear();
 
