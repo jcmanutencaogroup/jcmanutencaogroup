@@ -29,8 +29,8 @@
   --secao-escura:#072267;        /* bloco de contraste */
   --wpp:#25D366;
 
-  /* Tipografia. Scandia (marca) -> Inter | Montserrat (marca) */
-  --font-tit:'Inter','Helvetica Neue',system-ui,sans-serif;
+  /* Tipografia. Scandia (marca) -> Manrope | Montserrat (marca) */
+  --font-tit:'Manrope','Helvetica Neue',system-ui,sans-serif;
   --font-txt:'Montserrat','Helvetica Neue',system-ui,sans-serif;
 
   /* Raios: teto de 10px */
